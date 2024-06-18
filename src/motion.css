@@ -1,0 +1,65 @@
+.bgImage{
+    background-image: url('./Images/Live.svg');
+    
+}
+
+.bgImageDark{
+    background-image: url('./Images/Live.svg');
+    background-color: black;
+}
+
+.item{
+    min-height: 1rem;
+    min-width: 30rem;
+    padding: 5px;
+    display: flex;
+    
+}
+
+.offer{
+    min-height: 1rem;
+    min-width: 50%; 
+    padding: 5px;
+  
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px)
+{
+    .offer
+    {
+        min-width: 100%;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 199px)
+{
+    .offer
+    {
+        min-width: 100%;
+    }
+}
+
+.item Image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+.inner-carousel{
+    display: flex;
+    
+    
+}
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+    
+}
+
+
+@media print{
+    .print_btn{
+    display:none;
+    color: hsl(221,100%,26%)
+  
+    }  }

@@ -1,10 +1,26 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes animate-circle {
+  0% {
+    clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 100%);
+  }
+  100% {
+    clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 0%);
+  }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.animate-circle {
+  animation: animate-circle 2s linear infinite;
+}
+
+.custom-font {
+  font-family: "Mynerve", cursive;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,15 +29,44 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+a {
+  color: #c13e39;
+  text-decoration: none;
+}
+
+.item {
+  min-height: 1rem;
+  min-width: 30rem;
+  padding: 5px;
+}
+
+.offer {
+  min-height: 1rem;
+  /* min-width: 50%; */
+  padding: 5px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .offer {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 199px) {
+  .offer {
+    min-width: 100%;
+  }
+}
+
+
+.inner-carousel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
 }
 
 .App-link {
@@ -35,4 +80,7 @@
   to {
     transform: rotate(360deg);
   }
+
 }
+
+
