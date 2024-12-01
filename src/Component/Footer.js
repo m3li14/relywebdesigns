@@ -1,7 +1,7 @@
 import React from 'react'
 import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
-import { CompanyName } from './CompanyName';
+import CompanyName from './CompanyName';
 import SocialMedia from './socialMedia';
 import '../App.css';
 // import HiddenRecaptcha from './reCaptcha';

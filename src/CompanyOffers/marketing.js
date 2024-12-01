@@ -8,7 +8,7 @@ import Content from '../Images/Content.svg'
 import Links from '../Images/Links.svg'
 import Media from '../Images/Media.svg'
 import Bots from '../Images/Bots.svg'
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import Link from '@mui/material/Link';
 
 export default function Marketing() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import WPImage from '../Images/wordpress.svg';
 
 export default function WordPressASP() {

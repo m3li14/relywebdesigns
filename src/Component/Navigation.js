@@ -11,7 +11,7 @@ import {
 
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton } from '@mui/material';
-import { CompanyName } from './CompanyName';
+import CompanyName from './CompanyName';
 
 
 const drawerWidth = 240;
@@ -61,7 +61,7 @@ const Navigation = () => {
                     <Divider variant="middle" className='bg-[#C13E39]' />
                     <li className='px-3 lg:py-5 py-2 text-lg custom-font'><Link href='/WebDesignProcess' style={{ textDecoration: 'none', color: '#ffffff' }} exact>DESIGN PROCESS</Link></li>
                     <Divider variant="middle" className='bg-[#C13E39]' />
-                    <li className='px-3 lg:py-5 py-2 text-lg custom-font'><Link href='/PreviousProjects' style={{ textDecoration: 'none', color: '#ffffff' }} exact> OUR PROJECTS</Link></li>
+                    <li className='px-3 lg:py-5 py-2 text-lg custom-font'><Link href='/Portfolio/Projects' style={{ textDecoration: 'none', color: '#ffffff' }} exact>PROJECTS</Link></li>
                     <Divider variant="middle" className='bg-[#C13E39]' />
                     <li className='px-3 lg:py-5 py-2 text-lg custom-font'><Link href='/Testimonial' style={{ textDecoration: 'none', color: '#ffffff' }} exact> TESTIMONIAL</Link></li>
                     <Divider variant="middle" className='bg-[#C13E39]' />

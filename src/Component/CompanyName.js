@@ -1,11 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-
-export const CompanyName = () => {
+function CompanyName() {
+    // const CompanyName = 'Web Design Expressions'
     const CompanyName = 'Web Design Expressions'
+
+
     return (
+        <>
+            <span aria-label="Web Design Expressions Custom Web Design Services" title='Web Design Expressions | Affordable Custom Web Design and Professional Development Services'>{CompanyName}</span>
 
-        <span aria-label="Affordable Professional Web Design Solutions for Small Businesses, Affordable Web Development Agency for Custom Website Projects" title='Affordable Professional Web Design Solutions for Small Businesses, Affordable Web Development Agency for Custom Website Projects'>{CompanyName}</span>
 
+        </>
     )
 }
+
+export default CompanyName

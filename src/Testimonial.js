@@ -5,7 +5,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { CompanyName } from "./Component/CompanyName";
+import CompanyName from "./Component/CompanyName";
 import { Helmet } from "react-helmet";
 import egyfin from './Images/egyfin.webp';
 import circletestprep from "./Images/circletestprep.webp";
@@ -20,6 +20,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from '@mui/material/Button';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import allyachtregistries from './Images/allyachtregistries.webp';
+import goinfission from './Images/chartergoinfissioncabo.webp'
 import { Divider } from '@mui/material';
 
 const Testimonial = () => {
@@ -57,7 +58,7 @@ const Testimonial = () => {
         <div className='container mx-auto mt-5'>
 
             <Helmet>
-                <title data-react-helmet="true">Client testimonials of previous Rely Web Designs services</title>
+                <title data-react-helmet="true">Client testimonials of previous services</title>
                 <meta data-react-helmet="true" name="description" content="Clients on our custom web design & development services. How an affordable option helped improve their small business." />
                 <meta data-react-helmet="true" property="og:title" content="Web Design Expressions previous web sites client testimonials " />
                 <meta data-react-helmet="true" property="og:type" content="Web Design Company" />
@@ -86,6 +87,50 @@ const Testimonial = () => {
                 </div>
 
                 <div>
+
+                    <TransparentAccordion expanded={expanded === 'panel11'} onChange={handleChange('panel11')} className="">
+                        <TransparentAccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel11bh-content" id="panel11bh-header">
+                            <div className="font-bold text-[#1B3E5D]">GOIN' FISSION</div>
+                        </TransparentAccordionSummary>
+                        <TransparentAccordionDetails>
+                            <div className="lg:flex">
+                                <div className="lg:w-1/3">
+                                    <div className="lg:float-left lg:mr-5 mb-5">
+                                        <img
+                                            src={goinfission}
+                                            alt="experience effortless yacht charter with our expert web design services"
+                                            title="Professional Yacht charter Website"
+                                            className="rounded-xl shadow shadow-blue-900/75 mx-auto"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="lg:w-2/3">
+                                    <div className="lg:float-right">
+                                        <div className="text-[#1B3E5D]">
+                                            <CompanyName /> came highly recommended, and they certainly lived up to the reputation. We initially hired them to build a simple website, but the end result exceeded all our expectations. They took the time to understand our vision, listened carefully, and provided insightful suggestions that became key features of the website. Using modern web design practices and leveraging ReactJS, <CompanyName /> created a dynamic, responsive, and user-friendly commerce website that perfectly aligns with our needs. Throughout the development process, they were incredibly patient, guiding us with valuable insights on optimizing performance and user experience. If you are looking for a professional web designer who truly understands the power of technologies like ReactJS and always goes the extra mile for their clients, we highly recommend <CompanyName /> for your next project.
+                                        </div>
+
+                                    </div>
+                                    <div className="pt-5 lg:lg:float-right">
+                                        <ThemeProvider theme={theme}>
+                                            <Button className="mx-auto" size='large' variant="contained" id="btnSubmit" color="secondary" style={{ color: '#ffffff' }} title="visit Goin' Fission" href="https://chartergoinfissioncabo.com/" target="_blank" rel="noopener noreffer">
+
+
+                                                <b>Goin' Fission</b>&nbsp;&nbsp; <ExitToAppIcon />
+                                            </Button>
+                                        </ThemeProvider>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+                        </TransparentAccordionDetails>
+                    </TransparentAccordion>
+
                     <TransparentAccordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')} className="dark:bg-[#99aab5]">
                         <TransparentAccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel10bh-content" id="panel10bh-header">
                             <div className="font-bold text-[#1B3E5D]">ALL YACHT REGISTRIES</div>

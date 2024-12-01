@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompanyName } from './CompanyName';
+import CompanyName from '../Component/CompanyName';
 import Link from '@mui/material/Link';
 import ASPnet from '../Images/ASP.svg';
 

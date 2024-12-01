@@ -1,7 +1,7 @@
 import React from 'react'
 import SEOImg from '../Images/Search.svg'
 import { Divider, Link } from '@mui/material'
-import { CompanyName } from '../Component/CompanyName'
+import CompanyName from '../Component/CompanyName';
 import { BsQuestionDiamond } from 'react-icons/bs'
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';

@@ -1,7 +1,7 @@
 import { Divider, Link } from '@mui/material'
 import React from 'react'
 import DesignProcess from '../Images/DesignProcess.svg'
-import { CompanyName } from '../Component/CompanyName'
+import CompanyName from '../Component/CompanyName';
 import { BsQuestionDiamond } from 'react-icons/bs'
 import Process from '../Images/WebDesignProcess1.svg'
 import Process2 from '../Images/WebDesignProcess2.svg'

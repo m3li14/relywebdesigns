@@ -1,4 +1,4 @@
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import Search from '../Images/Search.svg';
 
 function SEO() {

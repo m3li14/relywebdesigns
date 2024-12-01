@@ -1,5 +1,5 @@
 import React from 'react';
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import MarktingImage from '../Images/markting.svg';
 
 export default function ContentMarketing() {

@@ -14,7 +14,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { BsQuestionDiamond } from 'react-icons/bs';
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import { Helmet } from 'react-helmet';
 
 

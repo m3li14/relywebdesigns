@@ -3,7 +3,7 @@ import { Divider } from '@mui/material';
 import { BsQuestionDiamond } from 'react-icons/bs'
 import ReactWebDesign from '../Images/ReactWebDesign.svg'
 import { Helmet } from 'react-helmet';
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 
 export default function reactJsDevelopment() {
     return (

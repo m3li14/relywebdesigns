@@ -2,7 +2,7 @@ import React from 'react'
 import WP from '../Images/WP.svg';
 import Blog from '../Images/Blog.svg';
 import Support from '../Images/Support.svg';
-import { CompanyName } from './CompanyName';
+import CompanyName from './CompanyName';
 
 export default function WordPress() {
     return (

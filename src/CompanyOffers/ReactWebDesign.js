@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import ReactImage from '../Images/react.svg'
 import { Divider } from '@mui/material';
 // import 'tailwindcss/tailwind.css'

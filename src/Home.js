@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompanyName } from './Component/CompanyName'
+import CompanyName from './Component/CompanyName';
 import Link from '@mui/material/Link';
 import Greeting from './Component/Greeting';
 import { Divider } from '@mui/material';
@@ -93,7 +93,7 @@ export default function Home() {
 
                 <div className='container mx-auto'>
 
-                    <div className='px-10 lg:py-5  custom-font font-bold text-[#1B3E5D] bg-white'>
+                    <div className='px-10 lg:py-5  custom-font font-bold text-[#1B3E5D]'>
                         <div className='lg:float-right lg:ml-10 mb-5'>
                             <div><USAEvents /></div>
                             <div>

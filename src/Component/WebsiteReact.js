@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactWebsite from '../Images/ReactWebsite.svg';
-import { CompanyName } from './CompanyName';
+import CompanyName from './CompanyName';
 import Link from '@mui/material/Link';
 
 export default function WebsiteReact() {

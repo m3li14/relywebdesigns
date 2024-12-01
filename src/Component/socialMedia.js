@@ -8,7 +8,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import PaymentsIcon from '@mui/icons-material/Payments';
 import ShareIcon from '@mui/icons-material/Share';
 // import { motion } from 'framer-motion';
-import Fade from '@mui/material/Fade';
+// import Fade from '@mui/material/Fade';
 
 
 
@@ -47,60 +47,60 @@ export const SocialMedia = () => {
             <div className='flex'>
 
                 <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={2500} mountOnEnter unmountOnExit>
-                        <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='tel:9494197273' title='Call Web Design Expressions' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <PhonelinkRingIcon fontSize='large' />
-                        </a>
-                    </Fade>
+
+                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='tel:9494197273' title='Call Web Design Expressions' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
+                        <PhonelinkRingIcon fontSize='large' />
+                    </a>
+
                 </div>
 
 
                 <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={3000} mountOnEnter unmountOnExit>
-                        <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='https://api.whatsapp.com/send?phone=12017010718' title='Chat/call Web Design Expressions on whatsapp' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <WhatsAppIcon fontSize='large' />
-                        </a>
-                    </Fade>
+
+                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='https://api.whatsapp.com/send?phone=12017010718' title='Chat/call Web Design Expressions on whatsapp' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
+                        <WhatsAppIcon fontSize='large' />
+                    </a>
+
                 </div>
 
-                <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={1000} mountOnEnter unmountOnExit>
+                {/* <div className='py-3'>
+                    
                         <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='https://www.facebook.com/designexpressions' title='Web Design Expressions facebook page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
                             <FacebookIcon fontSize='large' />
                         </a>
-                    </Fade>
-                </div>
+                    
+                </div> */}
 
-                <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={1500} mountOnEnter unmountOnExit>
+                {/* <div className='py-3'>
+                    
                         <a className='text-[#1B3E5D]  hover:text-[#C13E39]' href='https://www.instagram.com/webdesignexpressions' title='Web Design Expressions Instagram page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
                             <InstagramIcon fontSize='large' />
                         </a>
-                    </Fade>
-                </div>
+                    
+                </div> */}
 
 
                 <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={2000} mountOnEnter unmountOnExit>
-                        <button
-                            className='text-[#1B3E5D] hover:text-[#C13E39]'
-                            onClick={handleClick}
-                            style={{ paddingLeft: '5px' }}
-                            title='Share Web Design Expressions'
-                        >
-                            <ShareIcon fontSize='large' />
-                        </button>
-                    </Fade>
+
+                    <button
+                        className='text-[#1B3E5D] hover:text-[#C13E39]'
+                        onClick={handleClick}
+                        style={{ paddingLeft: '5px' }}
+                        title='Share Web Design Expressions'
+                    >
+                        <ShareIcon fontSize='large' />
+                    </button>
+
                 </div>
 
 
 
                 <div className='py-3'>
-                    <Fade direction="down" in={true} timeout={3500} mountOnEnter unmountOnExit>
-                        <a className='text-[#1B3E5D] hover:text-[#C13E39]' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DX7EDJDK3YYF8" target="_blank" rel="noopener noreferrer" title="Make a Secure Online Payment to Web Design Expressions" style={{ paddingLeft: '5px', display: 'block' }}>
-                            <PaymentsIcon fontSize='large' />
-                        </a>
-                    </Fade>
+
+                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DX7EDJDK3YYF8" target="_blank" rel="noopener noreferrer" title="Make a Secure Online Payment to Web Design Expressions" style={{ paddingLeft: '5px', display: 'block' }}>
+                        <PaymentsIcon fontSize='large' />
+                    </a>
+
                 </div>
 
             </div>

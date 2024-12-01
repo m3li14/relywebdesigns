@@ -5,7 +5,7 @@ import { createBrowserHistory } from "history";
 import Navigation from './Component/Navigation';
 import Home from './Home';
 import Testimonial from './Testimonial';
-import PreviousProjects from './PreviousProjects';
+import Projects from './Portfolio/Projects';
 import WebDesignProcess from './CompanyOffers/webDesignProcess'
 import FAQ from './FAQ';
 import SearchEngineOptimization from "./CompanyOffers/searchEngineOptimization";
@@ -56,7 +56,7 @@ function App() {
 
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#c7d5e0] text-[#171a21]">
       <div className='mx-auto'>
         <BrowserRouter history={history}>
           <Navigation />
@@ -72,7 +72,7 @@ function App() {
               <Route exact="true" path="/" component={Home} />
               <Route exact="true" path="/CustomWebDevelopment" component={CustomWebDevelopment} />
               <Route exact="true" path="/WebDesignProcess" component={WebDesignProcess} />
-              <Route exact="true" path="/PreviousProjects" component={PreviousProjects} />
+              <Route exact="true" path="/Portfolio/Projects" component={Projects} />
               <Route exact="true" path="/Testimonial" component={Testimonial} />
               <Route exact="true" path="/FAQ" component={FAQ} />
               <Route exact="true" path="/Contact" component={Contact} />

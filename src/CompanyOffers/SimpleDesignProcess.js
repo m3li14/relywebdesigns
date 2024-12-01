@@ -1,4 +1,4 @@
-import { CompanyName } from '../Component/CompanyName';
+import CompanyName from '../Component/CompanyName';
 import DesignProcessImage from '../Images/design.svg'
 
 function SimpleDesignProcess() {
