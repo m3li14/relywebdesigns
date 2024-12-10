@@ -2,10 +2,11 @@ import projects from './Projects.json';
 import { Helmet } from 'react-helmet';
 import { Link } from '@mui/material';
 import { useSprings, animated } from '@react-spring/web';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const Projects = () => {
+const Projects = ({ src, alt }) => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
+    const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
     // Animation for project cards with hover effect
     const [springs, api] = useSprings(projects.length, index => ({
@@ -30,6 +31,14 @@ const Projects = () => {
         });
         setHoveredIndex(null);
     };
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = src;
+        img.onload = () => {
+            setDimensions({ width: img.width, height: img.height });
+        };
+    }, [src]);
 
     return (
         <animated.div className="mx-10">
@@ -143,11 +152,17 @@ const Projects = () => {
                                             src={project.ProjectImage}
                                             alt={project.ProjectName}
                                             title={project.ProjectName}
+                                            width={dimensions.width}
+                                            height={dimensions.height}
+
                                             className="shadow-md mx-auto"
                                             style={{
                                                 ...style,
                                                 backgroundColor: 'transparent',
                                                 objectFit: 'cover',
+                                                width: "100%",
+                                                height: "auto",
+                                                loading: "lazy"
                                             }}
                                         />
                                     </Link>

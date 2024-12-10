@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
-import SendIcon from '@mui/icons-material/Send';
+
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import { TextField, Button, Container, Grid, Typography, ThemeProvider, createTheme, Divider } from '@mui/material';
+import { TextField, Button, Container, Grid, Typography, ThemeProvider, createTheme } from '@mui/material';
 import { FaUser, FaPhone, FaEnvelope, FaCommentDots } from 'react-icons/fa';
 import { IoMdSend } from 'react-icons/io';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';

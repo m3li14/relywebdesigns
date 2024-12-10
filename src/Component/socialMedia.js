@@ -1,7 +1,7 @@
 import { React } from 'react'
-import FacebookIcon from '@mui/icons-material/Facebook';
+// import FacebookIcon from '@mui/icons-material/Facebook';
 // import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 // import YouTubeIcon from '@material-ui/icons/YouTube';
 import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -48,8 +48,8 @@ export const SocialMedia = () => {
 
                 <div className='py-3'>
 
-                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='tel:9494197273' title='Call Web Design Expressions' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                        <PhonelinkRingIcon fontSize='large' />
+                    <a href='tel:9494197273' title='Call Web Design Expressions' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
+                        <PhonelinkRingIcon fontSize='medium' color='inherit' />
                     </a>
 
                 </div>
@@ -57,8 +57,8 @@ export const SocialMedia = () => {
 
                 <div className='py-3'>
 
-                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='https://api.whatsapp.com/send?phone=12017010718' title='Chat/call Web Design Expressions on whatsapp' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                        <WhatsAppIcon fontSize='large' />
+                    <a color='inherit' href='https://api.whatsapp.com/send?phone=12017010718' title='Chat/call Web Design Expressions on whatsapp' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
+                        <WhatsAppIcon fontSize='medium' />
                     </a>
 
                 </div>
@@ -66,7 +66,7 @@ export const SocialMedia = () => {
                 {/* <div className='py-3'>
                     
                         <a className='text-[#1B3E5D] hover:text-[#C13E39]' href='https://www.facebook.com/designexpressions' title='Web Design Expressions facebook page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <FacebookIcon fontSize='large' />
+                            <FacebookIcon fontSize='medium' />
                         </a>
                     
                 </div> */}
@@ -74,7 +74,7 @@ export const SocialMedia = () => {
                 {/* <div className='py-3'>
                     
                         <a className='text-[#1B3E5D]  hover:text-[#C13E39]' href='https://www.instagram.com/webdesignexpressions' title='Web Design Expressions Instagram page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <InstagramIcon fontSize='large' />
+                            <InstagramIcon fontSize='medium' />
                         </a>
                     
                 </div> */}
@@ -83,12 +83,12 @@ export const SocialMedia = () => {
                 <div className='py-3'>
 
                     <button
-                        className='text-[#1B3E5D] hover:text-[#C13E39]'
+                        color='inherit'
                         onClick={handleClick}
                         style={{ paddingLeft: '5px' }}
                         title='Share Web Design Expressions'
                     >
-                        <ShareIcon fontSize='large' />
+                        <ShareIcon fontSize='medium' />
                     </button>
 
                 </div>
@@ -97,8 +97,8 @@ export const SocialMedia = () => {
 
                 <div className='py-3'>
 
-                    <a className='text-[#1B3E5D] hover:text-[#C13E39]' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DX7EDJDK3YYF8" target="_blank" rel="noopener noreferrer" title="Make a Secure Online Payment to Web Design Expressions" style={{ paddingLeft: '5px', display: 'block' }}>
-                        <PaymentsIcon fontSize='large' />
+                    <a color='inherit' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DX7EDJDK3YYF8" target="_blank" rel="noopener noreferrer" title="Make a Secure Online Payment to Web Design Expressions" style={{ paddingLeft: '5px', display: 'block' }}>
+                        <PaymentsIcon fontSize='medium' />
                     </a>
 
                 </div>
@@ -113,7 +113,7 @@ export const SocialMedia = () => {
                 <div className='my-2 py-2 hover:bg-[#1B3E5D] hover:rounded-l-2xl hover:translate-x-[-20px]'>
                     <Fade direction="down" in={true} timeout={1000} mountOnEnter unmountOnExit>
                         <a className='text-[#FFFFFF] hover:text-[#C13E39]' href='https://www.facebook.com/relywebdesigns' title='Web Design Expressions facebook page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <FacebookIcon fontSize='large' />
+                            <FacebookIcon fontSize='medium' />
                         </a>
                     </Fade>
                 </div>
@@ -121,7 +121,7 @@ export const SocialMedia = () => {
                 <div className='my-2 py-2 hover:bg-[#1B3E5D] hover:rounded-l-2xl hover:translate-x-[-20px]'>
                     <Fade direction="down" in={true} timeout={1500} mountOnEnter unmountOnExit>
                         <a className='text-[#FFFFFF]  hover:text-[#C13E39]' href='https://www.instagram.com/webdesignexpressions' title='Web Design Expressions Instagram page' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <InstagramIcon fontSize='large' />
+                            <InstagramIcon fontSize='medium' />
                         </a>
                     </Fade>
                 </div>
@@ -133,7 +133,7 @@ export const SocialMedia = () => {
                             onClick={handleClick}
                             style={{ paddingLeft: '5px' }}
                         >
-                            <ShareIcon fontSize='large' />
+                            <ShareIcon fontSize='medium' />
                         </button>
                     </Fade>
                 </div>
@@ -141,7 +141,7 @@ export const SocialMedia = () => {
                 <div className='my-2 py-2 hover:bg-[#1B3E5D] hover:rounded-l-2xl hover:translate-x-[-20px]'>
                     <Fade direction="down" in={true} timeout={2500} mountOnEnter unmountOnExit>
                         <a className='text-[#FFFFFF] hover:text-[#C13E39]' href='tel:9494197273' title='Call Web Design Expressions' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <PhonelinkRingIcon fontSize='large' />
+                            <PhonelinkRingIcon fontSize='medium' />
 
                         </a>
                     </Fade>
@@ -150,7 +150,7 @@ export const SocialMedia = () => {
                 <div className='my-2 py-2 hover:bg-[#1B3E5D] hover:rounded-l-2xl hover:translate-x-[-20px]'>
                     <Fade direction="down" in={true} timeout={3000} mountOnEnter unmountOnExit>
                         <a className='text-[#FFFFFF] hover:text-[#C13E39]' href='https://api.whatsapp.com/send?phone=12017010718' title='Chat/call Web Design Expressions on whatsapp' rel='noreferrer noopener' target='_blank' style={{ paddingLeft: '5px', display: 'block' }}>
-                            <WhatsAppIcon fontSize='large' />
+                            <WhatsAppIcon fontSize='medium' />
                         </a>
                     </Fade>
                 </div>
@@ -158,7 +158,7 @@ export const SocialMedia = () => {
                 <div className='my-2 py-2 hover:bg-[#1B3E5D] hover:rounded-l-2xl hover:translate-x-[-20px]'>
                     <Fade direction="down" in={true} timeout={3500} mountOnEnter unmountOnExit>
                         <a className='text-[#FFFFFF] hover:text-[#C13E39]' href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DX7EDJDK3YYF8" target="_blank" rel="noopener noreferrer" title="Make a Secure Online Payment to Web Design Expressions" style={{ paddingLeft: '5px', display: 'block' }}>
-                            <PaymentsIcon fontSize='large' />
+                            <PaymentsIcon fontSize='medium' />
                         </a>
                     </Fade>
                 </div>

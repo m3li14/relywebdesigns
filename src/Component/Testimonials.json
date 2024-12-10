@@ -1,10 +1,99 @@
 [
-    {
-      "ID": 1,
-      "Provider": "Alabama",
-      "Testimonial": "Alabama",
-      "Link": "/RegistrationFees/Alabama",
-      "Image": "https://allyachtregistries.com/Img/Alabama.png"
-    }
-      
-  ]
+  {
+    "id": 1,
+    "companyName": "Goin' Fission",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/chartergoinfissioncabo.webp?alt=media&token=b3c44668-d7e6-4e54-8c25-c3ef95f1430e",
+    "testimonial": "Web Design Expressions came highly recommended, and they certainly lived up to the reputation. We initially hired them to build a simple website, but the end result exceeded all our expectations. They took the time to understand our vision, listened carefully, and provided insightful suggestions that became key features of the website. Using modern web design practices and leveraging ReactJS, Web Design Expressions created a dynamic, responsive, and user-friendly commerce website that perfectly aligns with our needs. Throughout the development process, they were incredibly patient, guiding us with valuable insights on optimizing performance and user experience. If you are looking for a professional web designer who truly understands the power of technologies like ReactJS and always goes the extra mile for their clients, we highly recommend Web Design Expressions for your next project.",
+    "link": "https://chartergoinfissioncabo.com/",
+    "stars": 5
+  },
+  {
+    "id": 2,
+    "companyName": "All Yacht Registries",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/allyachtregistries.webp?alt=media&token=d18800f4-c47c-4201-837a-bd1a95c331c4",
+    "testimonial": "Working with Web Design Expressions has been an absolute pleasure. As a full service Yacht Registry Company, we were looking for a web design partner that could deliver a website that is not only affordable but also responsive and user-friendly. They exceeded our expectations on all fronts. From the very beginning, the team at Web Design Expressions provided exceptional support and guidance throughout the entire web design process. They took the time to understand our unique needs and industry requirements, which allowed them to create a website perfectly tailored to our business. One aspect that truly impressed us was their expertise in Search Engine Optimization (SEO). They took the time to explain how SEO works and how it can significantly impact our online presence and visibility. Their insights were invaluable, helping us create content that resonates with our target audience and improves our search engine rankings. We highly recommend Web Design Expressions to any business looking for a top-notch web design partner. Their affordable solutions, responsive designs, and outstanding support have made them an indispensable asset to our Yacht Registry Company. We look forward to continuing our collaboration with them in the future.",
+    "link": "https://allyachtregistries.com/",
+    "stars": 5
+  },
+  {
+    "id": 3,
+    "companyName": "Shen Shen Ice Cream",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/ShenShen.webp?alt=media&token=50b157b9-b7c9-4e1b-b4ad-05f8c3ae53df",
+    "testimonial": "I highly recommend Web Design Expressions, a professional web development company that offers affordable and top-quality web design services. They specialize in using React web development to create visually stunning and fully functional websites. Throughout the entire process, Web Design Expressions kept me informed about the progress of my website. They were very professional and ensured that all of my requirements were met. They even provided search engine optimization and web hosting services, which made the entire experience hassle-free. I am extremely satisfied with the final product that Web Design Expressions delivered. They created a website that exceeded my expectations, and I couldn't have asked for more. If you're looking for affordable professional web design services, look no further than Web Design Expressions.",
+    "link": "https://shenshen.webdesignexpressions.net/",
+    "stars": 5
+  },
+  {
+    "id": 4,
+    "companyName": "Finegypt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/egyfin.webp?alt=media&token=248d345b-16ba-4b41-8a9a-cd377ada835f",
+    "testimonial": "I asked Web Design Expressions to build my web site for my company. I talked with Web Design Expressions much about Search Engine Optimization, and they assured me that we would get traffic to our site. They were right. Our site brought many phone calls and emails. I recommend Web Design Expressions to anyone wanting to build their business, and give them a 5-star rating for hosting, Search Engine Optimization, and design. Thank you.",
+    "link": "https://finegypt.webdesignexpressions.net/",
+    "stars": 5
+  },
+  {
+    "id": 5,
+    "companyName": "Cambridge Cab Company",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/CambridgeCabCompany.webp?alt=media&token=9755e3ce-9489-411a-9361-6effc9322789",
+    "testimonial": "Since Web Design Expressions built my web site, I have received phone calls and reservations from the web site which has greatly increased my business. They have proved to me that they are extremely knowledgeable in Search Engine Optimization. Their company team is professional, fast to respond to my change requests, and offer quality hosting. Best of all, their fees are very reasonable. I’m very happy with Web Design Expressions and I highly recommend them to anyone looking for really personal service from a Web Site Company.",
+    "link": "/",
+    "stars": 5
+  },
+  {
+    "id": 6,
+    "companyName": "National Save The Sea Turtle Foundation",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/savetheseaturtle.webp?alt=media&token=2f432639-6dc5-4553-87d4-a04e6032c519",
+    "testimonial": "The National Save the Sea Turtle Foundation and its staff highly recommend Web Design Expressions for anyone who wants a professional web designer, who is prompt, creative, and dependable. Their ideas and input helped us create an impressive website that has given us international exposure and attention. Their staff is professional and a pleasure to deal with and will bring your message to the public.",
+    "link": "https://savetheseaturtle.org/",
+    "stars": 5
+  },
+  {
+    "id": 7,
+    "companyName": "Huish Marine Group",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/HuishMarineGroup.webp?alt=media&token=ba0cb7e6-92fe-45d0-ab8f-c54a78b879c0",
+    "testimonial": "When I mentioned to an associate that I was opening a new company and was thinking about building a website, she referred Web Design Expressions to me without a moment’s hesitation. After a few conversations and emails describing what I was hoping to achieve, Web Design Expressions presented me with an outline that incorporated their expertise & knowledge of web design with many yacht industry marketing features that would make my website stand-out. We’re still adding features to the website and making our updates as things change, and I am very pleased with the way it is progressing.",
+    "link": "/",
+    "stars": 5
+  },
+  {
+    "id": 8,
+    "companyName": "OnSoft",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/OnSoft.webp?alt=media&token=a785903a-84ac-4413-a262-97f3d4d4b5a6",
+    "testimonial": "I wanted a logo for my car rental software. Web Design Expressions had designers that worked closely with me to understand the nature of my business and demonstrated many ideas to me. I was really pleased by their use of images and designs to communicate a lot of things about my business in graphics. My logo now tells me a lot about what my company does. I was so pleased.",
+    "link": "/",
+    "stars": 5
+  },
+  {
+    "id": 9,
+    "companyName": "Shuyang Sunshine Dry Flower",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/shuyangsunshinedryflower.webp?alt=media&token=2017a705-5fb2-4e65-9964-2f1ae4ea4c47",
+    "testimonial": "Web Design Expressions have professional designers who have wonderful ideas in design. They made us a beautiful web site. We were pleased with the cooperation we received when asking for changes to our site. We were treated with patience, understanding, and prompt service. Our designer was available whenever we needed him. We highly recommend Web Design Expressions to anyone wanting a web site. Do not hesitate to hire Web Design Expressions, we know you will be happy.",
+    "link": "/",
+    "stars": 5
+  },
+  {
+    "id": 10,
+    "companyName": "Math Tutor",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/mathtutoring.webp?alt=media&token=d6133866-7bed-4b1d-92d9-440dfb0eebd8",
+    "testimonial": "I owe the success of my tutoring business to Web Design Expressions! They put together a first-class website and, within a few months, the phone started ringing... and ringing! It was like magic. They are true professionals and a pleasure to deal with.",
+    "link": "https://mathtutoring.webdesignexpressions.net/",
+    "stars": 5
+  },
+  {
+    "id": 11,
+    "companyName": "SAT Prep of Aventura and Hollywood",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/circletestprep.webp?alt=media&token=89a395ac-ee4b-4431-a154-fe4e94ebbaa7",
+    "testimonial": "Web Design Expressions developed a clean and classy website for my little business and made it look like a big company! Best of all, when I needed to change some of the text and some of the pages, they made the changes quickly. Their suggestions and ideas were excellent, and now I have a thriving company that's getting bigger by the week!",
+    "link": "/",
+    "stars": 5
+  },
+  {
+    "id": 12,
+    "companyName": "Donate Your Boat To Charity",
+    "image": "https://firebasestorage.googleapis.com/v0/b/rely-3d69e.firebasestorage.app/o/donatetheboattocharity.webp?alt=media&token=74defff5-088a-4bc2-a996-1854a53ab9ce",
+    "testimonial": "I want to share my great experience with Web Design Expressions. Their team has designed and continues to maintain the Yacht Donation website for the National Save the Sea Turtle Foundation. They consistently deliver exceptional web design services, ensuring the site is always up-to-date, visually appealing, and fully functional. Their attention to detail and commitment to accuracy stand out. Whether it's optimizing the website for user experience, ensuring mobile-friendly designs, or keeping the content updated, Web Design Expressions excels in every aspect of professional web design and maintenance. If you're looking for experts in website development, design, and maintenance, I wholeheartedly recommend them. On a scale of 1-10, I would give Web Design Expressions a 10—truly the BEST!",
+    "link": "https://donatetheboattocharity.com/",
+    "stars": 5
+  }
+  
+]
